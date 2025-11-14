@@ -27,8 +27,8 @@ int main() {
     //cout << "The area of the room is: " << room_length * room_width << endl;
 
     unsigned short int exam_score {55};
-    long people_on_earth {7'600'000'000};
-    cout << "My exam score: " << exam_score << "People on earth: " << people_on_earth << endl;
+    long double large_number {2.7e120};
+    cout << "My exam score: " << exam_score << " Large number: " << large_number << endl;
 
 
     return 0;
