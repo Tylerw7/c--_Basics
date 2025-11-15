@@ -30,7 +30,7 @@ int main() {
     cout << "char: " << sizeof(char) << "bytes" << endl;
     cout << "int: " << sizeof(int) << "bytes" << endl;
     cout << "long: " << sizeof(long) << "bytes" << endl;
-    cout << "int min: " << INT_MIN << endl;
+    cout << "int         min: " << INT_MIN << endl;
 
 
 
