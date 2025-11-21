@@ -1,6 +1,7 @@
 // Arrays
 
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -43,6 +44,19 @@ int main() {
         }
         cout << endl;
     }
+
+
+    // dynamic arrays: Vectors:
+
+    vector <int> test_scores;
+
+    test_scores.push_back(80);
+    test_scores.push_back(90);
+
+    cout << "Test Scores: \n";
+    for (int i = 0; i < test_scores.size(); ++i) {
+        cout << test_scores.at(i) << endl;
+    };
     
 
 
