@@ -48,16 +48,29 @@ int main() {
 
     // dynamic arrays: Vectors:
 
-    vector <int> test_scores;
+    // vector <int> test_scores;
 
-    test_scores.push_back(80);
-    test_scores.push_back(90);
+    // test_scores.push_back(80);
+    // test_scores.push_back(90);
 
-    cout << "Test Scores: \n";
-    for (int i = 0; i < test_scores.size(); ++i) {
-        cout << test_scores.at(i) << endl;
-    };
-    
+    // cout << "Test Scores: \n";
+    // for (int i = 0; i < test_scores.size(); ++i) {
+    //     cout << test_scores.at(i) << endl;
+    // };
+    vector <int> vector1;
+    vector <int> vector2;
+
+    vector1.push_back(10);
+    vector1.push_back(20);
+    vector2.push_back(100);
+    vector2.push_back(200);
+
+    vector <vector <int>> vector_2d;
+    vector_2d.push_back(vector1);
+    vector_2d.push_back(vector2);
+
+    cout << vector_2d.at(0).at(0) << vector_2d.at(0).at(1) << endl;
+    cout << vector_2d.at(1).at(0) << vector_2d.at(1).at(1) << endl;
 
 
 
