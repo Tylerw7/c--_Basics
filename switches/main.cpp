@@ -10,11 +10,11 @@ int main() {
     cin >> selection;
 
     switch (selection) {
-        case 1: cout << "1 selected";
-        case 2: cout << "2 selected";
+        case 1: cout << "1 selected"; break;
+        case 2: cout << "2 selected"; break;
         case 3:
-        case 4: cout << "3 or 4 selected";
-        default: cout << "1,2,3,4 NOT selected";
+        case 4: cout << "3 or 4 selected"; break;
+        default: cout << "1,2,3,4 NOT selected"; break;
     }
 
 
